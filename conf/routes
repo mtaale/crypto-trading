@@ -1,0 +1,10 @@
+# accounts
+POST    /accounts                           ch.cryptofinance.controllers.AccountsController.create
+GET     /accounts/:id                       ch.cryptofinance.controllers.AccountsController.find(id)
+
+# orders
+POST    /orders                             ch.cryptofinance.controllers.OrdersController.create
+GET     /orders/:id                         ch.cryptofinance.controllers.OrdersController.find(id)
+
+# schedulers
+GET     /schedulers/btc-price               ch.cryptofinance.controllers.SchedulersController.startBtcPriceScheduler
